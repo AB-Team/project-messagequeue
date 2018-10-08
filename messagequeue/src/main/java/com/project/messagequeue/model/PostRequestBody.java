@@ -12,7 +12,7 @@ public class PostRequestBody {
     }
 
     public String getType() {
-        return type;
+        return this.type;
     }
 
     public void setType(String type) {
@@ -20,7 +20,7 @@ public class PostRequestBody {
     }
 
     public String getMessage() {
-        return message;
+        return this.message;
     }
 
     public void setMessage(String message) {
