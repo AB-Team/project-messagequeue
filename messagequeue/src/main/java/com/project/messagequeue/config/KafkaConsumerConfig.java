@@ -1,6 +1,6 @@
 package com.project.messagequeue.config;
 
-import com.fasterxml.jackson.databind.JsonDeserializer;
+import org.springframework.kafka.support.serializer.JsonDeserializer;
 import com.project.messagequeue.model.PostRequestBody;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.common.serialization.StringDeserializer;
